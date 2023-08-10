@@ -1,5 +1,4 @@
-const connectionString =
-  "mongodb+srv://canguven:CLg1kU8OyN7Wygij@cluster0.2lpuwrm.mongodb.net/?retryWrites=true&w=majority";
+const connectionString = process.env.MONGO_DB_CONNECTION_STRING;
 
 module.exports = {
   connectionString,

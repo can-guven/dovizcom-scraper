@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { initalizeDb, bulkUpdateCurrencyRates } = require("./src/db");
 const { getDovizComCurrencyRates } = require("./src/scrapper");
 
